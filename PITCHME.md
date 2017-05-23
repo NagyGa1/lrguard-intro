@@ -1,6 +1,6 @@
 <img src="assets/studiumwave.ai.300.png" style="width: 300px; border: none; box-shadow: none"/>
 
-## Loss Ratio Guard
+## LR Guard
 Introduction
 
 ---
@@ -18,7 +18,7 @@ The engine learns it.
 At underwriting time or at renewals the engine gives recommendations:
 
 - decline / renewal not invited
-- additional loading / discounts within a specified range
+- additional loading / discounts within a specified range (typically -10 to +25%)
 
 ---
 
@@ -27,6 +27,13 @@ The engine can learn more details than traditional rating models, as
 - interactions between multiple factors, e.g. young drivers in certain car types
 - usage of factors that are too granular for traditional models, e.g exact car model as a factor
 - usage of factors that are not in the rating model and not easy to include, e.g. zip codes
+
+---
+
+The engine is capable to react to fraud.
+
+E.g. if certain districts do have car theft, or fraudulent workshops,
+the engine will notice and start loading / excluding.
 
 ---
 ### Integration - Underwriting
