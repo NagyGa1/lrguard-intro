@@ -15,10 +15,10 @@ The insurer uploads 1-3 previous years of policy data with claims amounts.
 
 The engine learns it.
 
-At underwriting time or at renewals the engine gives recommendations:
+At underwriting or at renewals the engine gives recommendations:
 
 - decline / renewal not invited
-- additional loading / discounts within a specified range (typically -10 to +25%)
+- additional loading / discounts within a specified range (typically -10 to +50%)
 
 ---
 
